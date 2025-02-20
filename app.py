@@ -3,12 +3,12 @@ import streamlit as st
 import pandas as pd
 import os
 from io import BytesIO
-import openpyxl
+#import openpyxl
 
 
 #Set up our App
-st.set_page_config(page_title="Data sweeper",layout="wide")
-st.title("Data sweeper")
+st.set_page_config(page_title="Data Sweeper",layout="wide")
+st.title("Growth Mindset-File Transformer")
 st.write("Transform your files between CSV and Excel formats with built-in data and visualization! ")
 
 
